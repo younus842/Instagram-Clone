@@ -1,0 +1,65 @@
+.signup{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 540px;
+  
+}
+.signu{
+  margin: 40px 20px 10px 20px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  padding: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 50%;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  
+}
+
+.signu > img{
+  width: 220px;
+  margin-left: auto;
+  margin-right: auto ;
+  
+}
+
+.signu > input{
+  background-color: #ffffff24;
+  border: 1px solid gray;
+  border-radius: 3px;
+  padding: 12px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.signu > input:focus{
+  outline: 1px solid gray;
+}
+
+.signu > button{
+  padding: 12px;
+  border-radius: 8px;
+  border: 0;
+  color: white;
+  background-color: #0095f6;
+  font-weight: bolder;
+}
+
+.signu > button:hover{
+  cursor: pointer;
+}
+
+p{
+  /* text-align: center; */
+  text-align: center;
+  
+}
+
+.para{
+  font-size: 14px;
+}
+
